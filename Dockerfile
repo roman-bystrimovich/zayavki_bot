@@ -1,3 +1,3 @@
-FROM python:3.14-rc-slim
-COPY index.html /
+FROM python:3.10-slim
+COPY * /*
 CMD python main.py
